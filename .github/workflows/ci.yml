@@ -2,10 +2,8 @@
 # memolabs-dev/project-template). Mergify lands a green PR on it: .mergify.yml names it.
 name: CI
 on:
-  push:
-    branches: [main]
-  pull_request:
   workflow_dispatch:
+
 permissions:
   contents: read
 jobs:
